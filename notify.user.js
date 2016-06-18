@@ -1,3 +1,11 @@
+// ==UserScript==
+// @name          Notify
+// @namespace     https://www.scratch.mit.edu
+// @description   Play a sound when you recieve a notifaction
+// @include       https://scratch.mit.edu/*
+// @version       1.0
+// @icon          http://www.example.net/icon.png
+// ==/UserScript==
 var title = document.getElementsByTagName("title")[0];
 var titleData = title.innerHTML;
 var oldMessageCount = -1;
